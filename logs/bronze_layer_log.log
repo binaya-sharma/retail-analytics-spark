@@ -1,0 +1,104 @@
+2025-09-18 06:56:10,340 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 06:56:12,190 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 06:56:12,191 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 15:03:13,884 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 15:03:15,865 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 15:03:15,865 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 15:04:31,268 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 15:04:33,170 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 15:04:33,170 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 15:06:07,849 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 15:06:14,403 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 15:06:14,403 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 15:14:55,438 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 15:14:57,416 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 15:14:57,416 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 16:00:03,473 [INFO] bronze_layer_log - Starting pipeline cleanup...
+2025-09-18 16:00:19,315 [INFO] bronze_layer_log - Cleared data from retail_silver.customer_clean
+2025-09-18 16:00:20,242 [INFO] bronze_layer_log - Cleared data from retail_silver.employee_clean_history
+2025-09-18 16:00:21,045 [INFO] bronze_layer_log - Cleared data from retail_silver.product_clean
+2025-09-18 16:00:21,782 [INFO] bronze_layer_log - Cleared data from retail_silver.sales_clean
+2025-09-18 16:00:22,477 [INFO] bronze_layer_log - Cleared data from retail_silver.store_clean
+2025-09-18 16:00:23,220 [INFO] bronze_layer_log - Cleared data from retail_silver.supplier_clean
+2025-09-18 16:00:23,854 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_customer
+2025-09-18 16:00:24,603 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_employee
+2025-09-18 16:00:25,981 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_product
+2025-09-18 16:00:26,690 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_store
+2025-09-18 16:00:27,371 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_supplier
+2025-09-18 16:00:28,001 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_date
+2025-09-18 16:00:28,340 [INFO] bronze_layer_log - Cleared data from retail_gold.fact_sales
+2025-09-18 16:00:28,340 [INFO] bronze_layer_log - All cleanup complete.
+2025-09-18 16:00:28,341 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 16:01:27,435 [INFO] bronze_layer_log - Starting pipeline cleanup...
+2025-09-18 16:01:32,093 [INFO] bronze_layer_log - Cleared data from retail_silver.customer_clean
+2025-09-18 16:01:32,724 [INFO] bronze_layer_log - Cleared data from retail_silver.employee_clean_history
+2025-09-18 16:01:33,273 [INFO] bronze_layer_log - Cleared data from retail_silver.product_clean
+2025-09-18 16:01:33,834 [INFO] bronze_layer_log - Cleared data from retail_silver.sales_clean
+2025-09-18 16:01:34,262 [INFO] bronze_layer_log - Cleared data from retail_silver.store_clean
+2025-09-18 16:01:34,696 [INFO] bronze_layer_log - Cleared data from retail_silver.supplier_clean
+2025-09-18 16:01:35,095 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_customer
+2025-09-18 16:01:35,579 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_employee
+2025-09-18 16:01:36,565 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_product
+2025-09-18 16:01:37,074 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_store
+2025-09-18 16:01:37,477 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_supplier
+2025-09-18 16:01:37,845 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_date
+2025-09-18 16:01:38,207 [INFO] bronze_layer_log - Cleared data from retail_gold.fact_sales
+2025-09-18 16:01:38,208 [INFO] bronze_layer_log - All cleanup complete.
+2025-09-18 16:01:38,208 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 16:10:33,956 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 16:10:35,816 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 16:10:35,816 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 16:13:48,935 [INFO] bronze_layer_log - Starting pipeline cleanup...
+2025-09-18 16:14:10,310 [INFO] bronze_layer_log - Could not clear retail_silver.customer_clean: org.apache.hadoop.hive.ql.metadata.HiveException: java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient
+2025-09-18 16:14:19,323 [INFO] bronze_layer_log - Cleared data from retail_silver.employee_clean_history
+2025-09-18 16:14:20,218 [INFO] bronze_layer_log - Cleared data from retail_silver.product_clean
+2025-09-18 16:14:21,067 [INFO] bronze_layer_log - Cleared data from retail_silver.sales_clean
+2025-09-18 16:14:21,947 [INFO] bronze_layer_log - Cleared data from retail_silver.store_clean
+2025-09-18 16:14:22,748 [INFO] bronze_layer_log - Cleared data from retail_silver.supplier_clean
+2025-09-18 16:14:23,543 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_customer
+2025-09-18 16:14:24,305 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_employee
+2025-09-18 16:14:25,667 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_product
+2025-09-18 16:14:26,281 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_store
+2025-09-18 16:14:26,880 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_supplier
+2025-09-18 16:14:27,490 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_date
+2025-09-18 16:14:28,086 [INFO] bronze_layer_log - Cleared data from retail_gold.fact_sales
+2025-09-18 16:14:28,086 [INFO] bronze_layer_log - All cleanup complete.
+2025-09-18 16:14:28,086 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 16:14:40,502 [INFO] bronze_layer_log - Starting pipeline cleanup...
+2025-09-18 16:14:45,997 [INFO] bronze_layer_log - Cleared data from retail_silver.customer_clean
+2025-09-18 16:14:46,562 [INFO] bronze_layer_log - Cleared data from retail_silver.employee_clean_history
+2025-09-18 16:14:47,050 [INFO] bronze_layer_log - Cleared data from retail_silver.product_clean
+2025-09-18 16:14:47,589 [INFO] bronze_layer_log - Cleared data from retail_silver.sales_clean
+2025-09-18 16:14:48,071 [INFO] bronze_layer_log - Cleared data from retail_silver.store_clean
+2025-09-18 16:14:48,505 [INFO] bronze_layer_log - Cleared data from retail_silver.supplier_clean
+2025-09-18 16:14:48,941 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_customer
+2025-09-18 16:14:49,335 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_employee
+2025-09-18 16:14:49,834 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_product
+2025-09-18 16:14:50,254 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_store
+2025-09-18 16:14:50,658 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_supplier
+2025-09-18 16:14:51,068 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_date
+2025-09-18 16:14:51,489 [INFO] bronze_layer_log - Cleared data from retail_gold.fact_sales
+2025-09-18 16:14:51,489 [INFO] bronze_layer_log - All cleanup complete.
+2025-09-18 16:14:51,489 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 16:14:58,734 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 16:15:00,807 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 16:15:00,807 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 20:57:10,617 [INFO] bronze_layer_log - Starting pipeline cleanup...
+2025-09-18 20:57:33,459 [INFO] bronze_layer_log - Cleared data from retail_silver.customer_clean
+2025-09-18 20:57:34,537 [INFO] bronze_layer_log - Cleared data from retail_silver.employee_clean_history
+2025-09-18 20:57:35,428 [INFO] bronze_layer_log - Cleared data from retail_silver.product_clean
+2025-09-18 20:57:36,284 [INFO] bronze_layer_log - Cleared data from retail_silver.sales_clean
+2025-09-18 20:57:37,063 [INFO] bronze_layer_log - Cleared data from retail_silver.store_clean
+2025-09-18 20:57:37,864 [INFO] bronze_layer_log - Cleared data from retail_silver.supplier_clean
+2025-09-18 20:57:38,570 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_customer
+2025-09-18 20:57:39,241 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_employee
+2025-09-18 20:57:39,916 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_product
+2025-09-18 20:57:40,628 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_store
+2025-09-18 20:57:41,352 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_supplier
+2025-09-18 20:57:41,999 [INFO] bronze_layer_log - Cleared data from retail_gold.dim_date
+2025-09-18 20:57:42,687 [INFO] bronze_layer_log - Cleared data from retail_gold.fact_sales
+2025-09-18 20:57:42,688 [INFO] bronze_layer_log - All cleanup complete.
+2025-09-18 20:57:42,688 [INFO] py4j.clientserver - Closing down clientserver connection
+2025-09-18 20:58:39,573 [INFO] bronze_layer_log - Starting pipeline...
+2025-09-18 20:58:41,614 [INFO] bronze_layer_log - Pipeline finished.
+2025-09-18 20:58:41,614 [INFO] py4j.clientserver - Closing down clientserver connection

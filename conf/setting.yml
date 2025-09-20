@@ -1,0 +1,53 @@
+app:
+  name: spark-retail-analytics
+
+spark:
+  master: "local[*]"
+  appName: "spark-retail-analytics"
+
+  # local warehouse/metastore
+  warehouse: "file:/Users/Binaya/Documents/spark1/spark-warehouse"
+  metastore: "/Users/Binaya/Documents/spark1/metastore_db"  # Derby DB path
+
+  conf:
+    # Delta
+    spark.sql.extensions: "io.delta.sql.DeltaSparkSessionExtension"
+    spark.sql.catalog.spark_catalog: "org.apache.spark.sql.delta.catalog.DeltaCatalog"
+    spark.jars.packages: "io.delta:delta-spark_2.13:4.0.0"
+    spark.databricks.delta.schema.autoMerge.enabled: "true"
+
+    # Catalog & warehouse
+    spark.sql.catalogImplementation: "hive"
+    spark.sql.warehouse.dir: "file:/Users/Binaya/Documents/spark1/spark-warehouse"
+    javax.jdo.option.ConnectionURL: "jdbc:derby:;databaseName=/Users/Binaya/Documents/spark1/metastore_db;create=true"
+
+    # S3A (safe defaults; works when you switch to s3a:// paths)
+    spark.hadoop.fs.s3a.impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+    spark.hadoop.fs.s3a.aws.credentials.provider: "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider"
+    spark.hadoop.fs.s3a.access.key: "${AWS_ACCESS_KEY_ID}"
+    spark.hadoop.fs.s3a.secret.key: "${AWS_SECRET_ACCESS_KEY}"
+    spark.hadoop.fs.s3a.endpoint: "s3.amazonaws.com"
+
+    # s3a error override
+    spark.hadoop.fs.s3a.threads.keepalivetime: "60000"
+    spark.hadoop.fs.s3a.retry.interval: "500"
+    spark.hadoop.fs.s3a.retry.throttle.interval: "100"
+    spark.hadoop.fs.s3a.multipart.purge.age: "86400000"
+
+paths:
+  #raw oltp files
+  raw_customers: "data/customers"
+  raw_employees: "data/customers"
+  raw_productss: "data/customers"
+  raw_sales: "data/customers"
+  raw_stores: "data/customers"
+  raw_suppliers: "data/customers"
+  
+
+  silver_dt_dim: "data/silver/silver_dtdim"
+  silver_product_dim: "data/silver/silver_product_dim"
+  silver_employee_dim: "data/silver/silver_employee_dim"
+  silver_customer_dim: "data/silver/silver_customer_dim"
+  silver_store_dim: "data/silver/silver_store_dim"
+  silver_coupon_dim: "data/silver/silver_coupon_dim"
+  gold_fact: "data/gold/fact_table"

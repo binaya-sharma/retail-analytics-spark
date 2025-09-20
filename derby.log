@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Sep 18 21:00:01 NPT 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0199-5d64-a59e-0000049c0f58 
+on database directory /Users/Binaya/Documents/spark1/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6 
+Loaded from file:/Users/Binaya/apache-spark/spark-4.0.0-bin-hadoop3/jars/derby-10.16.1.1.jar
+java.vendor=Homebrew
+java.runtime.version=17.0.15+0
+user.dir=/Users/Binaya/Documents/spark1
+os.name=Mac OS X
+os.arch=aarch64
+os.version=15.6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

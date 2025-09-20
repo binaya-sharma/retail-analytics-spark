@@ -1,0 +1,6 @@
+ignore/
+.env
+#data/
+spark1/
+artifacts/
+data/
