@@ -1,0 +1,21 @@
+customer_id,customer_name,gender,age,email,phone_number,city,loyalty_tier
+C0001,Binaya Sharma,Male,61,binaya.sharma@example.com,+977-9816669220,Lalitpur,Bronze
+C0002,Anisha Koirala,Male,33,anisha.koirala@example.com,+977-9890249495,Kathmandu,Silver
+C0003,Prakash Adhikari,Female,26,prakash.adhikari@example.com,+977-9876581487,Dharan,Gold
+C0004,Sita Rana,Female,58,sita.rana@example.com,+977-9867424785,Janakpur,Bronze
+C0005,Bikash Thapa,Male,48,bikash.thapa@example.com,+977-9835856899,Hetauda,Bronze
+C0006,Ramesh Shrestha,Female,33,ramesh.shrestha@example.com,+977-9863402604,Butwal,Bronze
+C0007,Laxmi Bhandari,Male,36,laxmi.bhandari@example.com,+977-9871125033,Kathmandu,Bronze
+C0008,Sunita Gurung,Female,41,sunita.gurung@example.com,+977-9870136461,Bharatpur,Gold
+C0009,Manoj Poudel,Male,40,manoj.poudel@example.com,+977-9831126981,Janakpur,Bronze
+C0010,Krishna Maharjan,Female,39,krishna.maharjan@example.com,+977-9894620948,Hetauda,Bronze
+C0011,Dipika Oli,Female,18,dipika.oli@example.com,+977-9858349705,Janakpur,Bronze
+C0012,Arjun Khadka,Female,56,arjun.khadka@example.com,+977-9879361760,Butwal,Bronze
+C0013,Sabin Basnet,Female,61,sabin.basnet@example.com,+977-9854610721,Birgunj,Silver
+C0014,Nirjala Upreti,Male,64,nirjala.upreti@example.com,+977-9810725494,Biratnagar,Bronze
+C0015,Pratima Subedi,Female,21,pratima.subedi@example.com,+977-9856761326,Biratnagar,Bronze
+C0016,Santosh Dahal,Female,39,santosh.dahal@example.com,+977-9851670212,Biratnagar,Bronze
+C0017,Bimal Roka,Female,19,bimal.roka@example.com,+977-9897372184,Bharatpur,Bronze
+C0018,Kanchan Bhattarai,Female,31,kanchan.bhattarai@example.com,+977-9830839732,Pokhara,Silver
+C0019,Asha Neupane,Female,46,asha.neupane@example.com,+977-9882363877,Kathmandu,Bronze
+C0020,Roshan Giri,Female,44,roshan.giri@example.com,+977-9838129682,Pokhara,Silver

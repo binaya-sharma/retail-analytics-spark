@@ -1,0 +1,358 @@
+product_id,product_name,supplier_id,supplier_name,return_policy,warranty
+1,Clothes,1,Everest Traders,30 Days,6 Months
+1,Clothes,1,Everest Traders,7 Days,6 Months
+1,Clothes,4,Sagarmatha Distributors,30 Days,1 Year
+1,Clothes,2,Himalayan Suppliers,7 Days,1 Year
+1,Clothes,1,Everest Traders,7 Days,1 Year
+1,Clothes,3,Lumbini Imports,30 Days,6 Months
+1,Clothes,3,Lumbini Imports,7 Days,3 Years
+1,Clothes,4,Sagarmatha Distributors,15 Days,6 Months
+1,Clothes,2,Himalayan Suppliers,30 Days,3 Years
+1,Clothes,4,Sagarmatha Distributors,7 Days,6 Months
+1,Clothes,2,Himalayan Suppliers,15 Days,1 Year
+1,Clothes,2,Himalayan Suppliers,30 Days,2 Years
+1,Clothes,2,Himalayan Suppliers,7 Days,3 Years
+1,Clothes,3,Lumbini Imports,30 Days,2 Years
+1,Clothes,2,Himalayan Suppliers,15 Days,3 Years
+1,Clothes,4,Sagarmatha Distributors,7 Days,3 Years
+1,Clothes,3,Lumbini Imports,15 Days,6 Months
+1,Clothes,3,Lumbini Imports,15 Days,1 Year
+1,Clothes,2,Himalayan Suppliers,7 Days,2 Years
+1,Clothes,1,Everest Traders,15 Days,2 Years
+1,Clothes,1,Everest Traders,7 Days,3 Years
+1,Clothes,4,Sagarmatha Distributors,30 Days,6 Months
+1,Clothes,1,Everest Traders,15 Days,1 Year
+1,Clothes,3,Lumbini Imports,7 Days,6 Months
+1,Clothes,3,Lumbini Imports,30 Days,3 Years
+1,Clothes,2,Himalayan Suppliers,7 Days,6 Months
+1,Clothes,1,Everest Traders,15 Days,6 Months
+1,Clothes,4,Sagarmatha Distributors,7 Days,1 Year
+1,Clothes,2,Himalayan Suppliers,30 Days,1 Year
+1,Clothes,4,Sagarmatha Distributors,30 Days,2 Years
+1,Clothes,4,Sagarmatha Distributors,7 Days,2 Years
+1,Clothes,3,Lumbini Imports,7 Days,2 Years
+1,Clothes,3,Lumbini Imports,15 Days,2 Years
+1,Clothes,4,Sagarmatha Distributors,15 Days,1 Year
+1,Clothes,1,Everest Traders,30 Days,2 Years
+1,Clothes,2,Himalayan Suppliers,15 Days,6 Months
+1,Clothes,1,Everest Traders,30 Days,1 Year
+1,Clothes,3,Lumbini Imports,7 Days,1 Year
+1,Clothes,1,Everest Traders,7 Days,2 Years
+1,Clothes,2,Himalayan Suppliers,30 Days,6 Months
+2,Headphones,1,Everest Traders,7 Days,6 Months
+2,Headphones,2,Himalayan Suppliers,30 Days,3 Years
+2,Headphones,4,Sagarmatha Distributors,15 Days,2 Years
+2,Headphones,4,Sagarmatha Distributors,7 Days,2 Years
+2,Headphones,1,Everest Traders,7 Days,2 Years
+2,Headphones,1,Everest Traders,30 Days,1 Year
+2,Headphones,4,Sagarmatha Distributors,30 Days,1 Year
+2,Headphones,3,Lumbini Imports,30 Days,2 Years
+2,Headphones,4,Sagarmatha Distributors,15 Days,1 Year
+2,Headphones,2,Himalayan Suppliers,15 Days,2 Years
+2,Headphones,2,Himalayan Suppliers,7 Days,1 Year
+2,Headphones,3,Lumbini Imports,7 Days,1 Year
+2,Headphones,3,Lumbini Imports,7 Days,2 Years
+2,Headphones,2,Himalayan Suppliers,15 Days,1 Year
+2,Headphones,1,Everest Traders,30 Days,2 Years
+2,Headphones,2,Himalayan Suppliers,15 Days,3 Years
+2,Headphones,4,Sagarmatha Distributors,7 Days,1 Year
+2,Headphones,1,Everest Traders,7 Days,1 Year
+2,Headphones,2,Himalayan Suppliers,7 Days,6 Months
+2,Headphones,3,Lumbini Imports,15 Days,6 Months
+2,Headphones,3,Lumbini Imports,15 Days,1 Year
+2,Headphones,4,Sagarmatha Distributors,7 Days,3 Years
+2,Headphones,4,Sagarmatha Distributors,30 Days,3 Years
+2,Headphones,2,Himalayan Suppliers,30 Days,1 Year
+2,Headphones,2,Himalayan Suppliers,30 Days,6 Months
+2,Headphones,3,Lumbini Imports,30 Days,6 Months
+2,Headphones,3,Lumbini Imports,30 Days,1 Year
+2,Headphones,4,Sagarmatha Distributors,15 Days,3 Years
+2,Headphones,1,Everest Traders,30 Days,6 Months
+2,Headphones,1,Everest Traders,30 Days,3 Years
+2,Headphones,1,Everest Traders,15 Days,2 Years
+2,Headphones,1,Everest Traders,15 Days,3 Years
+2,Headphones,3,Lumbini Imports,30 Days,3 Years
+2,Headphones,2,Himalayan Suppliers,7 Days,2 Years
+2,Headphones,4,Sagarmatha Distributors,30 Days,2 Years
+2,Headphones,3,Lumbini Imports,7 Days,3 Years
+2,Headphones,1,Everest Traders,15 Days,6 Months
+2,Headphones,1,Everest Traders,15 Days,1 Year
+2,Headphones,1,Everest Traders,7 Days,3 Years
+2,Headphones,3,Lumbini Imports,7 Days,6 Months
+2,Headphones,4,Sagarmatha Distributors,30 Days,6 Months
+2,Headphones,3,Lumbini Imports,15 Days,3 Years
+2,Headphones,4,Sagarmatha Distributors,15 Days,6 Months
+2,Headphones,2,Himalayan Suppliers,15 Days,6 Months
+3,Laptop,4,Sagarmatha Distributors,30 Days,6 Months
+3,Laptop,4,Sagarmatha Distributors,30 Days,3 Years
+3,Laptop,1,Everest Traders,30 Days,6 Months
+3,Laptop,3,Lumbini Imports,15 Days,1 Year
+3,Laptop,3,Lumbini Imports,7 Days,3 Years
+3,Laptop,4,Sagarmatha Distributors,15 Days,1 Year
+3,Laptop,4,Sagarmatha Distributors,7 Days,6 Months
+3,Laptop,3,Lumbini Imports,30 Days,6 Months
+3,Laptop,2,Himalayan Suppliers,7 Days,2 Years
+3,Laptop,3,Lumbini Imports,15 Days,3 Years
+3,Laptop,4,Sagarmatha Distributors,7 Days,3 Years
+3,Laptop,1,Everest Traders,7 Days,3 Years
+3,Laptop,4,Sagarmatha Distributors,30 Days,2 Years
+3,Laptop,2,Himalayan Suppliers,30 Days,1 Year
+3,Laptop,3,Lumbini Imports,7 Days,2 Years
+3,Laptop,2,Himalayan Suppliers,30 Days,6 Months
+3,Laptop,1,Everest Traders,15 Days,1 Year
+3,Laptop,1,Everest Traders,30 Days,3 Years
+3,Laptop,1,Everest Traders,30 Days,1 Year
+3,Laptop,1,Everest Traders,15 Days,2 Years
+3,Laptop,4,Sagarmatha Distributors,30 Days,1 Year
+3,Laptop,1,Everest Traders,7 Days,6 Months
+3,Laptop,4,Sagarmatha Distributors,15 Days,3 Years
+3,Laptop,1,Everest Traders,15 Days,3 Years
+3,Laptop,2,Himalayan Suppliers,15 Days,6 Months
+3,Laptop,1,Everest Traders,30 Days,2 Years
+3,Laptop,1,Everest Traders,7 Days,1 Year
+3,Laptop,1,Everest Traders,15 Days,6 Months
+3,Laptop,4,Sagarmatha Distributors,15 Days,6 Months
+3,Laptop,4,Sagarmatha Distributors,7 Days,2 Years
+3,Laptop,2,Himalayan Suppliers,15 Days,3 Years
+3,Laptop,2,Himalayan Suppliers,15 Days,1 Year
+3,Laptop,1,Everest Traders,7 Days,2 Years
+3,Laptop,2,Himalayan Suppliers,15 Days,2 Years
+3,Laptop,3,Lumbini Imports,30 Days,3 Years
+3,Laptop,4,Sagarmatha Distributors,7 Days,1 Year
+3,Laptop,2,Himalayan Suppliers,30 Days,2 Years
+3,Laptop,2,Himalayan Suppliers,7 Days,3 Years
+3,Laptop,2,Himalayan Suppliers,30 Days,3 Years
+3,Laptop,3,Lumbini Imports,30 Days,1 Year
+3,Laptop,3,Lumbini Imports,15 Days,2 Years
+3,Laptop,3,Lumbini Imports,7 Days,1 Year
+3,Laptop,3,Lumbini Imports,7 Days,6 Months
+3,Laptop,4,Sagarmatha Distributors,15 Days,2 Years
+3,Laptop,2,Himalayan Suppliers,7 Days,6 Months
+4,Mobile,2,Himalayan Suppliers,15 Days,3 Years
+4,Mobile,3,Lumbini Imports,15 Days,1 Year
+4,Mobile,3,Lumbini Imports,15 Days,3 Years
+4,Mobile,4,Sagarmatha Distributors,7 Days,6 Months
+4,Mobile,1,Everest Traders,7 Days,6 Months
+4,Mobile,1,Everest Traders,30 Days,3 Years
+4,Mobile,2,Himalayan Suppliers,15 Days,2 Years
+4,Mobile,3,Lumbini Imports,7 Days,1 Year
+4,Mobile,1,Everest Traders,15 Days,2 Years
+4,Mobile,1,Everest Traders,30 Days,6 Months
+4,Mobile,3,Lumbini Imports,30 Days,2 Years
+4,Mobile,2,Himalayan Suppliers,7 Days,6 Months
+4,Mobile,3,Lumbini Imports,7 Days,6 Months
+4,Mobile,1,Everest Traders,7 Days,2 Years
+4,Mobile,4,Sagarmatha Distributors,30 Days,2 Years
+4,Mobile,1,Everest Traders,30 Days,2 Years
+4,Mobile,2,Himalayan Suppliers,30 Days,6 Months
+4,Mobile,1,Everest Traders,15 Days,1 Year
+4,Mobile,1,Everest Traders,7 Days,1 Year
+4,Mobile,1,Everest Traders,30 Days,1 Year
+4,Mobile,3,Lumbini Imports,15 Days,2 Years
+4,Mobile,2,Himalayan Suppliers,30 Days,1 Year
+4,Mobile,1,Everest Traders,15 Days,3 Years
+4,Mobile,2,Himalayan Suppliers,7 Days,1 Year
+4,Mobile,2,Himalayan Suppliers,30 Days,3 Years
+4,Mobile,2,Himalayan Suppliers,7 Days,3 Years
+4,Mobile,4,Sagarmatha Distributors,15 Days,1 Year
+4,Mobile,4,Sagarmatha Distributors,7 Days,2 Years
+4,Mobile,4,Sagarmatha Distributors,7 Days,1 Year
+4,Mobile,2,Himalayan Suppliers,7 Days,2 Years
+4,Mobile,4,Sagarmatha Distributors,15 Days,3 Years
+4,Mobile,1,Everest Traders,15 Days,6 Months
+4,Mobile,3,Lumbini Imports,30 Days,1 Year
+4,Mobile,1,Everest Traders,7 Days,3 Years
+4,Mobile,2,Himalayan Suppliers,30 Days,2 Years
+4,Mobile,4,Sagarmatha Distributors,30 Days,3 Years
+4,Mobile,3,Lumbini Imports,7 Days,2 Years
+4,Mobile,3,Lumbini Imports,30 Days,6 Months
+4,Mobile,2,Himalayan Suppliers,15 Days,6 Months
+4,Mobile,2,Himalayan Suppliers,15 Days,1 Year
+4,Mobile,4,Sagarmatha Distributors,30 Days,1 Year
+4,Mobile,4,Sagarmatha Distributors,7 Days,3 Years
+4,Mobile,4,Sagarmatha Distributors,15 Days,2 Years
+4,Mobile,3,Lumbini Imports,7 Days,3 Years
+5,Refrigerator,2,Himalayan Suppliers,7 Days,1 Year
+5,Refrigerator,3,Lumbini Imports,30 Days,1 Year
+5,Refrigerator,4,Sagarmatha Distributors,30 Days,3 Years
+5,Refrigerator,1,Everest Traders,7 Days,6 Months
+5,Refrigerator,2,Himalayan Suppliers,30 Days,2 Years
+5,Refrigerator,2,Himalayan Suppliers,7 Days,3 Years
+5,Refrigerator,2,Himalayan Suppliers,7 Days,6 Months
+5,Refrigerator,4,Sagarmatha Distributors,15 Days,1 Year
+5,Refrigerator,2,Himalayan Suppliers,30 Days,6 Months
+5,Refrigerator,3,Lumbini Imports,30 Days,6 Months
+5,Refrigerator,3,Lumbini Imports,30 Days,3 Years
+5,Refrigerator,3,Lumbini Imports,7 Days,3 Years
+5,Refrigerator,3,Lumbini Imports,15 Days,2 Years
+5,Refrigerator,2,Himalayan Suppliers,7 Days,2 Years
+5,Refrigerator,2,Himalayan Suppliers,15 Days,3 Years
+5,Refrigerator,4,Sagarmatha Distributors,7 Days,3 Years
+5,Refrigerator,1,Everest Traders,30 Days,1 Year
+5,Refrigerator,2,Himalayan Suppliers,15 Days,1 Year
+5,Refrigerator,4,Sagarmatha Distributors,30 Days,1 Year
+5,Refrigerator,4,Sagarmatha Distributors,30 Days,2 Years
+5,Refrigerator,1,Everest Traders,7 Days,1 Year
+5,Refrigerator,4,Sagarmatha Distributors,30 Days,6 Months
+5,Refrigerator,1,Everest Traders,15 Days,3 Years
+5,Refrigerator,1,Everest Traders,15 Days,2 Years
+5,Refrigerator,3,Lumbini Imports,30 Days,2 Years
+5,Refrigerator,1,Everest Traders,7 Days,3 Years
+5,Refrigerator,4,Sagarmatha Distributors,7 Days,2 Years
+5,Refrigerator,1,Everest Traders,15 Days,1 Year
+5,Refrigerator,2,Himalayan Suppliers,30 Days,3 Years
+5,Refrigerator,3,Lumbini Imports,7 Days,6 Months
+5,Refrigerator,2,Himalayan Suppliers,30 Days,1 Year
+5,Refrigerator,3,Lumbini Imports,7 Days,2 Years
+5,Refrigerator,3,Lumbini Imports,15 Days,3 Years
+5,Refrigerator,1,Everest Traders,15 Days,6 Months
+5,Refrigerator,3,Lumbini Imports,15 Days,6 Months
+5,Refrigerator,3,Lumbini Imports,15 Days,1 Year
+5,Refrigerator,3,Lumbini Imports,7 Days,1 Year
+5,Refrigerator,4,Sagarmatha Distributors,15 Days,3 Years
+5,Refrigerator,4,Sagarmatha Distributors,15 Days,2 Years
+5,Refrigerator,2,Himalayan Suppliers,15 Days,6 Months
+5,Refrigerator,1,Everest Traders,30 Days,2 Years
+5,Refrigerator,2,Himalayan Suppliers,15 Days,2 Years
+5,Refrigerator,4,Sagarmatha Distributors,7 Days,6 Months
+5,Refrigerator,1,Everest Traders,30 Days,6 Months
+5,Refrigerator,1,Everest Traders,30 Days,3 Years
+5,Refrigerator,4,Sagarmatha Distributors,15 Days,6 Months
+5,Refrigerator,4,Sagarmatha Distributors,7 Days,1 Year
+5,Refrigerator,1,Everest Traders,7 Days,2 Years
+6,Shoes,1,Everest Traders,15 Days,2 Years
+6,Shoes,2,Himalayan Suppliers,7 Days,6 Months
+6,Shoes,1,Everest Traders,7 Days,3 Years
+6,Shoes,3,Lumbini Imports,7 Days,6 Months
+6,Shoes,3,Lumbini Imports,15 Days,3 Years
+6,Shoes,3,Lumbini Imports,30 Days,3 Years
+6,Shoes,2,Himalayan Suppliers,30 Days,3 Years
+6,Shoes,3,Lumbini Imports,7 Days,2 Years
+6,Shoes,4,Sagarmatha Distributors,7 Days,2 Years
+6,Shoes,1,Everest Traders,30 Days,3 Years
+6,Shoes,1,Everest Traders,15 Days,6 Months
+6,Shoes,3,Lumbini Imports,30 Days,1 Year
+6,Shoes,3,Lumbini Imports,30 Days,6 Months
+6,Shoes,2,Himalayan Suppliers,30 Days,1 Year
+6,Shoes,2,Himalayan Suppliers,30 Days,6 Months
+6,Shoes,4,Sagarmatha Distributors,30 Days,6 Months
+6,Shoes,4,Sagarmatha Distributors,30 Days,1 Year
+6,Shoes,1,Everest Traders,7 Days,6 Months
+6,Shoes,2,Himalayan Suppliers,15 Days,6 Months
+6,Shoes,1,Everest Traders,30 Days,2 Years
+6,Shoes,3,Lumbini Imports,15 Days,2 Years
+6,Shoes,4,Sagarmatha Distributors,30 Days,3 Years
+6,Shoes,2,Himalayan Suppliers,15 Days,2 Years
+6,Shoes,2,Himalayan Suppliers,7 Days,2 Years
+6,Shoes,1,Everest Traders,15 Days,3 Years
+6,Shoes,3,Lumbini Imports,15 Days,6 Months
+6,Shoes,1,Everest Traders,30 Days,1 Year
+6,Shoes,2,Himalayan Suppliers,7 Days,3 Years
+6,Shoes,1,Everest Traders,7 Days,2 Years
+6,Shoes,2,Himalayan Suppliers,15 Days,1 Year
+6,Shoes,2,Himalayan Suppliers,30 Days,2 Years
+6,Shoes,4,Sagarmatha Distributors,7 Days,1 Year
+6,Shoes,2,Himalayan Suppliers,15 Days,3 Years
+6,Shoes,4,Sagarmatha Distributors,15 Days,6 Months
+6,Shoes,3,Lumbini Imports,30 Days,2 Years
+6,Shoes,3,Lumbini Imports,15 Days,1 Year
+6,Shoes,3,Lumbini Imports,7 Days,3 Years
+6,Shoes,1,Everest Traders,15 Days,1 Year
+6,Shoes,4,Sagarmatha Distributors,15 Days,2 Years
+6,Shoes,1,Everest Traders,30 Days,6 Months
+6,Shoes,4,Sagarmatha Distributors,30 Days,2 Years
+6,Shoes,2,Himalayan Suppliers,7 Days,1 Year
+6,Shoes,1,Everest Traders,7 Days,1 Year
+6,Shoes,3,Lumbini Imports,7 Days,1 Year
+6,Shoes,4,Sagarmatha Distributors,15 Days,3 Years
+6,Shoes,4,Sagarmatha Distributors,15 Days,1 Year
+6,Shoes,4,Sagarmatha Distributors,7 Days,6 Months
+7,TV,2,Himalayan Suppliers,7 Days,2 Years
+7,TV,3,Lumbini Imports,15 Days,1 Year
+7,TV,3,Lumbini Imports,7 Days,2 Years
+7,TV,2,Himalayan Suppliers,15 Days,1 Year
+7,TV,4,Sagarmatha Distributors,15 Days,1 Year
+7,TV,1,Everest Traders,7 Days,3 Years
+7,TV,1,Everest Traders,7 Days,1 Year
+7,TV,3,Lumbini Imports,7 Days,3 Years
+7,TV,4,Sagarmatha Distributors,7 Days,6 Months
+7,TV,1,Everest Traders,30 Days,2 Years
+7,TV,2,Himalayan Suppliers,15 Days,6 Months
+7,TV,3,Lumbini Imports,30 Days,2 Years
+7,TV,4,Sagarmatha Distributors,15 Days,3 Years
+7,TV,1,Everest Traders,7 Days,6 Months
+7,TV,4,Sagarmatha Distributors,30 Days,2 Years
+7,TV,3,Lumbini Imports,15 Days,3 Years
+7,TV,4,Sagarmatha Distributors,30 Days,1 Year
+7,TV,4,Sagarmatha Distributors,7 Days,1 Year
+7,TV,3,Lumbini Imports,7 Days,6 Months
+7,TV,3,Lumbini Imports,30 Days,1 Year
+7,TV,2,Himalayan Suppliers,15 Days,3 Years
+7,TV,2,Himalayan Suppliers,7 Days,3 Years
+7,TV,1,Everest Traders,15 Days,3 Years
+7,TV,3,Lumbini Imports,30 Days,6 Months
+7,TV,1,Everest Traders,30 Days,6 Months
+7,TV,1,Everest Traders,30 Days,1 Year
+7,TV,3,Lumbini Imports,15 Days,2 Years
+7,TV,4,Sagarmatha Distributors,15 Days,6 Months
+7,TV,1,Everest Traders,15 Days,1 Year
+7,TV,4,Sagarmatha Distributors,15 Days,2 Years
+7,TV,2,Himalayan Suppliers,7 Days,1 Year
+7,TV,4,Sagarmatha Distributors,7 Days,3 Years
+7,TV,2,Himalayan Suppliers,30 Days,3 Years
+7,TV,2,Himalayan Suppliers,30 Days,1 Year
+7,TV,3,Lumbini Imports,7 Days,1 Year
+7,TV,1,Everest Traders,15 Days,2 Years
+7,TV,4,Sagarmatha Distributors,30 Days,6 Months
+7,TV,4,Sagarmatha Distributors,30 Days,3 Years
+7,TV,2,Himalayan Suppliers,7 Days,6 Months
+7,TV,1,Everest Traders,15 Days,6 Months
+7,TV,4,Sagarmatha Distributors,7 Days,2 Years
+7,TV,3,Lumbini Imports,15 Days,6 Months
+7,TV,3,Lumbini Imports,30 Days,3 Years
+7,TV,1,Everest Traders,7 Days,2 Years
+8,Washing Machine,2,Himalayan Suppliers,30 Days,1 Year
+8,Washing Machine,1,Everest Traders,30 Days,2 Years
+8,Washing Machine,1,Everest Traders,7 Days,2 Years
+8,Washing Machine,4,Sagarmatha Distributors,30 Days,1 Year
+8,Washing Machine,1,Everest Traders,15 Days,3 Years
+8,Washing Machine,2,Himalayan Suppliers,30 Days,6 Months
+8,Washing Machine,2,Himalayan Suppliers,7 Days,2 Years
+8,Washing Machine,4,Sagarmatha Distributors,30 Days,6 Months
+8,Washing Machine,1,Everest Traders,7 Days,1 Year
+8,Washing Machine,4,Sagarmatha Distributors,7 Days,1 Year
+8,Washing Machine,4,Sagarmatha Distributors,7 Days,3 Years
+8,Washing Machine,3,Lumbini Imports,7 Days,6 Months
+8,Washing Machine,4,Sagarmatha Distributors,7 Days,6 Months
+8,Washing Machine,3,Lumbini Imports,15 Days,2 Years
+8,Washing Machine,2,Himalayan Suppliers,30 Days,3 Years
+8,Washing Machine,4,Sagarmatha Distributors,15 Days,3 Years
+8,Washing Machine,4,Sagarmatha Distributors,7 Days,2 Years
+8,Washing Machine,3,Lumbini Imports,30 Days,1 Year
+8,Washing Machine,2,Himalayan Suppliers,30 Days,2 Years
+8,Washing Machine,2,Himalayan Suppliers,15 Days,3 Years
+8,Washing Machine,3,Lumbini Imports,7 Days,2 Years
+8,Washing Machine,1,Everest Traders,7 Days,6 Months
+8,Washing Machine,3,Lumbini Imports,15 Days,6 Months
+8,Washing Machine,1,Everest Traders,7 Days,3 Years
+8,Washing Machine,3,Lumbini Imports,15 Days,1 Year
+8,Washing Machine,2,Himalayan Suppliers,15 Days,6 Months
+8,Washing Machine,2,Himalayan Suppliers,15 Days,2 Years
+8,Washing Machine,2,Himalayan Suppliers,7 Days,3 Years
+8,Washing Machine,2,Himalayan Suppliers,7 Days,1 Year
+8,Washing Machine,4,Sagarmatha Distributors,15 Days,6 Months
+8,Washing Machine,2,Himalayan Suppliers,7 Days,6 Months
+8,Washing Machine,3,Lumbini Imports,7 Days,1 Year
+8,Washing Machine,3,Lumbini Imports,7 Days,3 Years
+8,Washing Machine,3,Lumbini Imports,30 Days,6 Months
+8,Washing Machine,3,Lumbini Imports,30 Days,3 Years
+8,Washing Machine,4,Sagarmatha Distributors,30 Days,2 Years
+8,Washing Machine,2,Himalayan Suppliers,15 Days,1 Year
+8,Washing Machine,1,Everest Traders,15 Days,1 Year
+8,Washing Machine,1,Everest Traders,15 Days,6 Months
+8,Washing Machine,1,Everest Traders,30 Days,1 Year
+8,Washing Machine,1,Everest Traders,30 Days,3 Years
+8,Washing Machine,4,Sagarmatha Distributors,30 Days,3 Years
+8,Washing Machine,3,Lumbini Imports,15 Days,3 Years
+8,Washing Machine,1,Everest Traders,15 Days,2 Years
+8,Washing Machine,4,Sagarmatha Distributors,15 Days,2 Years
