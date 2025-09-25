@@ -1,11 +1,11 @@
 -- Normalize + prepare change_hash
 CREATE OR REPLACE VIEW stg_employee_hist AS
 SELECT
-  trim(employee_id)                  AS employee_id,
-  trim(employee_code)                AS employee_code,
-  trim(store_id)                     AS store_id,
-  initcap(trim(store_name))          AS store_name,
-  CAST(effective_from AS DATE)       AS effective_from,
+  trim(employee_id) AS employee_id,
+  trim(employee_code)  AS employee_code,
+  trim(store_id)  AS store_id,
+  initcap(trim(store_name)) AS store_name,
+  CAST(effective_from AS DATE) AS effective_from,
   COALESCE(CAST(effective_to AS DATE), DATE '9999-12-31') AS effective_to,
   CASE WHEN lower(CAST(is_current AS STRING)) IN ('1','true','t','y','yes') THEN true ELSE false END AS is_current,
   CASE WHEN lower(CAST(is_primary AS STRING)) IN ('1','true','t','y','yes') THEN true ELSE false END AS is_primary,
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS retail_silver.employee_clean_history (
 ) USING DELTA
 LOCATION 'file:/Users/Binaya/Documents/spark1/data/silver/employee_clean_history';
 
--- Step 1: close overlapping current rows on change
+--close overlapping current rows on change
 MERGE INTO retail_silver.employee_clean_history AS tgt
 USING stg_employee_hist AS src
 ON  tgt.employee_id = src.employee_id
@@ -47,8 +47,21 @@ WHEN MATCHED THEN UPDATE SET
   tgt.is_current   = false,
   tgt.imported_date = GREATEST(tgt.imported_date, src.imported_date);
 
--- Step 2: insert new versions (new BK or changed attrs)
+--insert new versions 
 MERGE INTO retail_silver.employee_clean_history AS tgt
 USING stg_employee_hist AS src
-ON  1 = 0
-WHEN NOT MATCHED THEN INSERT *;
+ON  tgt.employee_id  = src.employee_id
+AND tgt.effective_from = src.effective_from
+AND tgt.change_hash = src.change_hash
+WHEN NOT MATCHED THEN INSERT (
+  employee_id, employee_code, store_id, store_name,
+  effective_from, effective_to, is_current, is_primary,
+  change_hash, source_file, imported_date
+)
+VALUES (
+  src.employee_id, src.employee_code, src.store_id, src.store_name,
+  src.effective_from, src.effective_to,
+  /* new records become current :: the previous step already closed any overlapping row */
+  true, src.is_primary,
+  src.change_hash, src.source_file, src.imported_date
+);
