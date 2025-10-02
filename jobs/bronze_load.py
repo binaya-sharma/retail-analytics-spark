@@ -4,6 +4,24 @@ from pyspark.sql.types import *
 from pyspark.sql.functions import input_file_name, current_timestamp, regexp_extract
 from utils.logger import get_logger
 
+# ─────────────────────────────────────────────────────────────
+# Column Ordering in Spark Structured Streaming + Delta Lake
+# 
+# - DataFrame API:
+#   * withColumn() appends new fields (e.g., source_file, imported_date) 
+#     at the end of the logical schema.
+#   * If upstream schema evolves (new fields like mvp_yn), they appear 
+#     before the derived columns, but ordering does not affect semantics.
+#
+# - Delta Lake:
+#   * Column alignment during writes is NAME-BASED, not POSITION-BASED.
+#   * Schema evolution (mergeSchema + autoMerge.enabled) ensures new
+#     fields are merged safely, with NULL backfill for historical rows.
+#
+# - Caveat with SQL Insert:
+#   * SQL "INSERT INTO table SELECT ..." without explicit column list
+#     is position-based → avoid in production.
+# ─────────────────────────────────────────────────────────────
 
 logger = get_logger('bronze_layer_log')
 
