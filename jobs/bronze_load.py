@@ -21,6 +21,8 @@ from utils.logger import get_logger
 # - Caveat with SQL Insert:
 #   * SQL "INSERT INTO table SELECT ..." without explicit column list
 #     is position-based → avoid in production.
+#
+# - input_file_name() works in both batch (read) and streaming (readStream) modes in Spark.
 # ─────────────────────────────────────────────────────────────
 
 logger = get_logger('bronze_layer_log')
