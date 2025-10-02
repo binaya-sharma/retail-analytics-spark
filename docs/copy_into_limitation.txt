@@ -1,0 +1,42 @@
+Why COPY INTO in Databricks Cannot Add Audit Columns
+
+Overview:
+- COPY INTO in Databricks is a command designed for bulk ingestion of files from external storage (S3, ADLS, GCS) into Delta tables.
+- Its purpose is to efficiently load raw data, handling schema inference and schema drift, but it is intentionally limited in terms of transformations.
+
+Limitations:
+1. Position-based ingestion:
+   - COPY INTO maps file fields to table columns by position (unless explicitly mapped).
+   - There is no support for adding computed columns (e.g., current_timestamp()) or file metadata (e.g., input_file_name()).
+   - This means audit fields like imported_date or source_file cannot be generated inline.
+
+2. Lack of expression support:
+   - Unlike Snowflake’s COPY INTO, which allows expressions and pseudo-columns (e.g., METADATA$FILENAME, CURRENT_TIMESTAMP),
+     Databricks COPY INTO does not support SQL expressions or functions inside the command.
+   - COPY INTO is not meant to enrich data, only to land it.
+
+3. Audit columns mismatch:
+   - If you try to add audit columns later in Silver using current_timestamp(), all rows get stamped with the batch time of the query, not their true ingestion time.
+   - Historical fidelity is lost because COPY INTO does not record row-level load times or file origins.
+
+4. Delta transaction log vs row-level audit:
+   - COPY INTO does create entries in the Delta transaction log (commit version, commit timestamp).
+   - These can be queried via DESCRIBE HISTORY, but they exist at the batch level, not at the row level.
+   - There is no built-in way to propagate this information into dedicated audit columns automatically.
+
+Best Practices:
+- Use COPY INTO strictly for Bronze (raw) ingestion when audit columns are not required.
+- If audit columns are required:
+  * Use Auto Loader instead of COPY INTO. Auto Loader supports schema evolution and allows adding imported_date and input_file_name at ingestion time.
+  * Or, perform a second ETL step (Bronze → Silver) where you explicitly add audit metadata columns using Spark functions.
+  * Rely on DESCRIBE HISTORY for batch-level auditing if exact per-row audit is not needed.
+
+Summary:
+- COPY INTO is intentionally limited: it is a position-based bulk loader with schema drift handling but no transformation capabilities.
+- Audit columns like imported_date and source_file cannot be generated inline because COPY INTO does not support expressions or metadata access.
+- For true row-level auditability, use Auto Loader or enrich data during/after ingestion.
+
+Q: What is the difference between Databricks COPY INTO and Auto Loader? Why would you use Auto Loader if COPY INTO already handles schema drift?
+--> Auto Loader is built on top of Spark Structured Streaming, but optimized for incremental file ingestion from cloud storage.
+--> It provides fine-grained control (audit columns, schema evolution, checkpoints, file notifications) that COPY INTO doesn’t support.
+--> In open-source Spark, Structured Streaming already gives fine-grained control, but Auto Loader adds Databricks-managed optimizations (file discovery, schema drift handling, scalability) that make ingestion pipelines much simpler to manage in production.
