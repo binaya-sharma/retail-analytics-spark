@@ -1,8 +1,8 @@
 # Apache Spark Retail Analytics
 
 A retail analytics pipeline built using **Apache Spark** and **Delta Lake**, structured around the **Medallion Architecture (Bronze → Silver → Gold)**.
-It processes retail data across multiple dimensions—customers, employees, products, stores, suppliers, and sales—to build an incremental, auditable data model for analytics and reporting.
-The pipeline integrates with **Airbyte** for data ingestion, **AWS S3** for storage, and **Apache Airflow** for orchestration, and is designed to scale to a production-grade environment.
+It processes retail data across multiple dimensions: customers, employees, products, stores, suppliers, and sales to build an incremental, auditable data model for analytics and reporting.
+The pipeline integrates with **Airbyte** for data ingestion, **AWS S3** for storage, and **Apache Airflow**(optional) for orchestration, and is designed to scale to a production-grade environment.
 
 ## Architecture
 
@@ -50,7 +50,6 @@ The pipeline integrates with **Airbyte** for data ingestion, **AWS S3** for stor
 ## Notes
 
 - The current setup runs locally for simplicity and reproducibility.
-- Designed to be portable to AWS Glue or Databricks for enterprise-scale deployment.
 - The pipeline can be extended to push incremental updates to **Snowflake** using the **Spark–Snowflake Connector**:
   - Delta Lake manages incremental logic (MERGE, CDC, audit tracking).
   - Spark writes only changed records to a Snowflake staging table.
